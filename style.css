@@ -23,11 +23,11 @@ h1{
 }
 #name{
     color:rgb(212, 43, 122);
-    font-size: 45px;
+    font-size: 4vw;
 }
 #va{
     color:rgb(43, 206, 212);
-    font-size: 45px; 
+    font-size: 4vw; 
 }
 #voice{
     width: 100px;
@@ -42,7 +42,7 @@ display: flex;
 align-items: center;
 justify-content: center;
 gap: 10px;
-font-size: 20px;
+font-size: 1.5vw;
 border-radius: 20px;
 color: white;
 box-shadow: 2px 2px 10px rgb(21, 145, 207),2px 2px 10px rgb(201, 41, 116);
@@ -53,4 +53,19 @@ cursor: pointer;
 #btn:hover{
     box-shadow: 2px 2px 20px rgb(21, 145, 207),2px 2px 20px rgb(201, 41, 116);
     letter-spacing: 2px;
+}
+
+@media (max-width:1060px) {
+    #logo{
+        width: 40vw;
+    }
+}
+@media (max-width:660px) {
+    #logo{
+        width: 60vw;
+    }
+    #btn{
+        width: 50%;
+        font-size: 2vw;
+    }
 }
